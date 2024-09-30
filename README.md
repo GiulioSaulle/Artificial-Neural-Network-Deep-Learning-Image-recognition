@@ -1,7 +1,9 @@
 <body>
     <h1>AN2DL Challenge 1 - Neural Network Leaf Classification</h1>
     <h2>Introduction</h2>
-    <p>The objective of this project is to develop a neural network model that classifies low-resolution images of different types of leaves based on their health status. Each leaf is classified as either <strong>healthy</strong> (0) or <strong>unhealthy</strong> (1).</p>
+    <p>The objective of this project is to develop a neural network model that classifies low-resolution images of different types of leaves based on their health status. Each leaf is classified as either <strong>healthy</strong> (0) or <strong>unhealthy</strong> (1).
+    </p>
+    <p>For extensive information about the task: <a href="https://codalab.lisn.upsaclay.fr/competitions/16245" target="_blank">AN2DL Challenge 1 competition</a></p>
     <h2>First Approach</h2>
     <h3>Input/Output Handling</h3>
     <p>The model was designed to output a tensor of dimension [BS], where BS is the batch size (2), and the input conforms to the model’s inner requirements (e.g., ConvNeXt accepts values in the range of [0-255], with internal normalization).</p>
